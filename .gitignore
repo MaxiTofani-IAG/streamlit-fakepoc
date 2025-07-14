@@ -1,0 +1,56 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# pyenv local version file
+.python-version
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración local
+*.env
+.env.*
+!.env.example
+
+# Archivos de salida
+*.out
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/*.json
+
+# Archivos creados por Jupyter o IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Base de datos local o archivos temporales
+*.db
+*.sqlite3
+*.bak
+*.tmp
+
+# Pytest cache
+.pytest_cache/
+
+# coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# dist y packaging
+dist/
+build/
+*.egg-info/
