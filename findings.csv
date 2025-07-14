@@ -1,0 +1,21 @@
+ID_DEFECTO,DESCRIPCION,CANTIDAD_HORAS,ATA_NUMBER,CATEGORIA,FECHA_INICIO,FECHA_FIN
+D001,Leak in main pneumatic line,5.5,36,Pneumatic,2024-02-03,2024-02-05
+D002,Landing light malfunction,2.0,32,Landing Gear,2024-04-10,2024-04-11
+D003,Brake wear on main gear,3.5,32,Landing Gear,2024-03-15,2024-03-17
+D004,Crack on lower fuselage panel,8.0,52,Doors,2024-01-05,2024-01-10
+D005,Temperature sensor calibration issue,1.5,21,Air Conditioning,2024-05-01,2024-05-02
+D006,Nose gear brake adjustment,2.5,32,Landing Gear,2024-03-21,2024-03-22
+D007,Unusual noise in cockpit ventilation,1.0,21,Air Conditioning,2024-06-14,2024-06-14
+D008,Replacement of pressure valve,4.0,36,Pneumatic,2024-02-26,2024-02-28
+D009,Intermittent autopilot error,6.5,22,Auto Flight,2024-07-01,2024-07-05
+D010,Corrosion on access door,7.0,52,Doors,2024-01-20,2024-01-25
+D011,Left aileron actuator failure,5.0,27,Flight Controls,2024-05-10,2024-05-12
+D012,A/C duct blockage,2.0,21,Air Conditioning,2024-06-01,2024-06-02
+D013,Software update on autopilot system,1.0,22,Auto Flight,2024-07-07,2024-07-07
+D014,Hydraulic filter contaminated,3.0,36,Pneumatic,2024-02-15,2024-02-16
+D015,Noise during gear retraction,3.5,32,Landing Gear,2024-04-01,2024-04-03
+D016,Instrument panel flickering,1.5,24,Electrical Power,2024-03-05,2024-03-05
+D017,Oil leak in right engine,4.5,71,Powerplant,2024-05-22,2024-05-24
+D018,Worn seat cushion in cockpit,1.0,52,Doors,2024-06-10,2024-06-10
+D019,Cabin pressure control failure,6.0,21,Air Conditioning,2024-01-30,2024-02-02
+D020,Aft door not sealing properly,3.0,52,Doors,2024-03-12,2024-03-13

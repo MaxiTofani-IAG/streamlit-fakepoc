@@ -1,0 +1,97 @@
+
+The provided image is a scatter plot titled "Clusterización de Findings por Descripción" (Clustering of Findings by Description), which is a visualization of a clustering analysis, likely using t-SNE (t-Distributed Stochastic Neighbor Embedding) based on the axis labels "TSNE 1" and "TSNE 2".
+
+The input data provided consists of a list of findings (defects or issues), each with attributes: ID_DEFECTO, DESCRIPCION, CANTIDAD_HORAS, ATA_NUMBER, CATEGORIA, FECHA_INICIO, and FECHA_FIN.
+
+The goal of this analysis seems to be to group the findings based on their DESCRIPCION (description), likely utilizing natural language processing (NLP) techniques to analyze the text and then applying clustering algorithms.
+
+Here is an interpretation of the analysis based on the image and the provided data:
+
+1. Analysis Interpretation (Clustering)
+The t-SNE plot visualizes the findings in a two-dimensional space, where the proximity of points indicates the similarity of the findings' descriptions. The findings have been grouped into four clusters (0, 1, 2, and 3), as indicated by the legend and the color coding.
+
+Cluster 0 (Green/Teal): This cluster appears on the left and central-left side of the plot.
+
+Cluster 1 (Orange/Salmon): This cluster is mainly located on the right side of the plot.
+
+Cluster 2 (Blue/Slate): This cluster is spread across the top and bottom of the plot, particularly on the right and top-left.
+
+Cluster 3 (Pink/Magenta): This cluster is located in the center-right of the plot.
+
+The clustering suggests that findings within the same cluster have similar descriptions, even if they belong to different technical categories (based on the input data).
+
+2. Detailed Interpretation by Cluster
+By examining the location of the findings in the plot and cross-referencing them with the provided input data, we can understand the characteristics of each cluster.
+
+Cluster 0 (Green/Teal):
+Findings: D001, D008, D012, D014, D017, D019
+Characteristics:
+
+D001: Leak in main pneumatic line (Pneumatic)
+
+D008: Replacement of pressure valve (Pneumatic)
+
+D012: A/C duct blockage (Air Conditioning)
+
+D014: Hydraulic filter contaminated (Pneumatic)
+
+D017: Oil leak in right engine (Powerplant)
+
+D019: Cabin pressure control failure (Air Conditioning)
+
+Interpretation: This cluster seems to be related to fluid systems (pneumatic, hydraulic) and environmental control (A/C, cabin pressure), often involving leaks, blockages, or component replacements.
+
+Cluster 1 (Orange/Salmon):
+Findings: D003, D006, D007, D015
+Characteristics:
+
+D003: Brake wear on main gear (Landing Gear)
+
+D006: Nose gear brake adjustment (Landing Gear)
+
+D007: Unusual noise in cockpit ventilation (Air Conditioning)
+
+D015: Noise during gear retraction (Landing Gear)
+
+Interpretation: This cluster is dominated by issues related to the Landing Gear, particularly brakes and gear movement, along with one related to noise in ventilation. The descriptions likely share similarities in terms of the components or the type of problem (wear, noise).
+
+Cluster 2 (Blue/Slate):
+Findings: D002, D004, D005, D010, D011, D016, D018, D020
+Characteristics:
+
+D002: Landing light malfunction (Landing Gear)
+
+D004: Crack on lower fuselage panel (Doors)
+
+D005: Temperature sensor calibration issue (Air Conditioning)
+
+D010: Corrosion on access door (Doors)
+
+D011: Left aileron actuator failure (Flight Controls)
+
+D016: Instrument panel flickering (Electrical Power)
+
+D018: Worn seat cushion in cockpit (Doors)
+
+D020: Aft door not sealing properly (Doors)
+
+Interpretation: This is a more diverse cluster covering structural issues (cracks, corrosion, door sealing), sensor issues, electrical problems, and component failures (actuator failure). The descriptions might share a vocabulary related to component state (worn, malfunction, crack) or specific locations (fuselage, panel, door).
+
+Cluster 3 (Pink/Magenta):
+Findings: D009, D013
+Characteristics:
+
+D009: Intermittent autopilot error (Auto Flight)
+
+D013: Software update on autopilot system (Auto Flight)
+
+Interpretation: This cluster is highly concentrated and clearly related to Auto Flight systems and software issues.
+
+3. Summary of the Analysis
+The analysis successfully grouped the findings based on the similarity of their descriptions, rather than strictly by the provided CATEGORIA or ATA_NUMBER.
+
+Effectiveness: The clustering demonstrates that findings with similar descriptions are geometrically close in the t-SNE plot, indicating that the NLP and clustering methods identified meaningful relationships in the text data.
+
+Key Findings: The plot reveals distinct groups (e.g., the clear cluster of Auto Flight issues in pink, the Landing Gear cluster in orange, and the fluid/environmental systems cluster in green).
+
+Implications: This type of analysis is useful for identifying patterns in defect reporting. For example, it can help maintenance teams understand recurring themes in the descriptions, even if the formal categories are different, or identify emerging issues based on how they are described in the field.
