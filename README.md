@@ -1,23 +1,45 @@
 # Proyecto Streamlit con Python
 
-Este proyecto utiliza **Streamlit** para construir una aplicación web interactiva en Python. Se recomienda usar un entorno virtual (`venv`) junto con `pyenv` para manejar versiones de Python.
+Este proyecto utiliza **Streamlit** para construir una aplicación web interactiva en Python, centrada en la visualización y análisis de datos. Incluye pruebas con algoritmos como **K-Means**, y visualizaciones con **t-SNE** y **UMAP**.
 
-Se probaron de momento algoritmos:
-- k-means (TSNE VS UMAP)
+## 🧩 Requisitos
 
-## Requisitos
+- Python 3.10+ (se recomienda usar [pyenv](https://github.com/pyenv/pyenv) para gestionar versiones)
+- `venv` o `virtualenv`
+- `pip`
 
-- Python 3.x (gestión recomendada con [pyenv](https://github.com/pyenv/pyenv))
-- `virtualenv` o `venv`
-
-## Instalación
+## 🚀 Instalación y ejecución
 
 1. **Clonar el repositorio**
 
 ```bash
-git clone https://github.com/mtofani/data-analytics
+git clone https://github.com/MaxiTofani-IAG/streamlit-fakepoc.git
 cd data-analytics
+```
 
-crear el venv
-instalar deps
+2. **Crear y activar un entorno virtual**
+
+```bash
+python -m venv venv
+source venv/bin/activate  # En Linux/macOS
+venv\Scripts\activate     # En Windows
+```
+
+3. **Instalar dependencias**
+
+```bash
+pip install -r requirements.txt
+```
+
+4. **Ejecutar la aplicación**
+
+```bash
 streamlit run main.py
+```
+
+## 🧪 Algoritmos probados
+
+- K-Means clustering
+- Reducción de dimensionalidad con:
+  - t-SNE
+  - UMAP
