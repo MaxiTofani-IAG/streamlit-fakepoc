@@ -17,3 +17,7 @@ Se probaron de momento algoritmos:
 ```bash
 git clone https://github.com/mtofani/data-analytics
 cd data-analytics
+
+crear el venv
+instalar deps
+streamlit run main.py
